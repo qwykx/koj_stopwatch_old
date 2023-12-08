@@ -1,0 +1,28 @@
+{
+  "name": "koj_stopwatch",
+  "version": "1.0.0",
+  "description": "KOJ Stopwatch",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ./src/main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qwykx/koj_stopwatch.git"
+  },
+  "author": "Sacha von Känel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/qwykx/koj_stopwatch/issues"
+  },
+  "homepage": "https://github.com/qwykx/koj_stopwatch#readme",
+  "devDependencies": {
+    "electron": "^28.0.0"
+  },
+  "dependencies": {
+    "@fontsource/roboto": "^5.0.8",
+    "bootstrap": "^5.2.3",
+    "bootstrap-icons": "^1.11.2",
+    "jquery": "^3.7.1"
+  }
+}
